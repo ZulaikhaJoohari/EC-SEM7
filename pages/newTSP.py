@@ -12,7 +12,7 @@ st.write("Enter up to 10 cities with their coordinates (x,y) in range 1-10.")
 # Default city values
 default_cities = [
     {"name": "Penang", "x": 0, "y": 1},
-    {"name": "Byan Baru", "x": 3, "y": 2},
+    {"name": "Bayan Baru", "x": 3, "y": 2},
     {"name": "Georgetown", "x": 6, "y": 1},
     {"name": "Kedah", "x": 7, "y": 4.5},
     {"name": "Terengganu", "x": 15, "y": -1},
