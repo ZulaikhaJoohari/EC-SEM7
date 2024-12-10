@@ -2,6 +2,10 @@ import csv
 import streamlit as st
 import pandas as pd
 
+
+values = st.slider("Select a range of values", 0.0, 100.0, (25.0, 75.0))
+st.write("Values:", values)
+
 # Function to read the CSV file and convert it to the desired format
 def read_csv_to_dict(file_path):
     program_ratings = {}
